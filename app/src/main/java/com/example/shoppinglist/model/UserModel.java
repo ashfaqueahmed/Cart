@@ -6,6 +6,7 @@ public class UserModel {
     String name;
     String email;
     String address;
+    String phone;
 
     public UserModel() {
     }
@@ -15,6 +16,10 @@ public class UserModel {
         this.name = name;
         this.email = email;
         this.address = address;
+    }
+
+    public String getPhone() {
+        return phone;
     }
 
     public int getId() {
